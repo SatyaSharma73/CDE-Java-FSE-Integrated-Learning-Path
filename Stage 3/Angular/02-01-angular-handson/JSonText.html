@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<head>
+    <title>JsObjDemo</title>
+</head>
+<body>
+    <script>
+        const jstext = '{"FirstName":"John","LastName":"Stoke","Salary":"5000","PeramanentStaff":"true"}';
+        
+        
+        const Myobj = JSON.parse(jstext);
+        Myobj["Id"] = 3;
+        Myobj["DepartmentName"] = "Payroll";
+        Myobj["Skill 1"] = "HTML";
+        Myobj["Skill 2"] = "CSS";
+        Myobj["Skill 3"] = "JavaScript";
+        console.log(Myobj);
+        
+    </script>
+</body>
